@@ -1,6 +1,12 @@
+# A lightweight Python web framework for building REST APIs and handling server-side logic.
 Flask==2.2.3
+# Enables Cross-Origin Resource Sharing (CORS) to allow the React front end to interact with the Flask back end.
 flask-cors==3.0.10
+# Provides SQLAlchemy support in Flask for easier interaction with relational databases (SQLite).
 Flask-SQLAlchemy==3.0.2
+# Extracts text from PDF files, useful for parsing resumes submitted as PDFs.
 pdfminer.six==20221105
+# Processes Microsoft Word files, enabling the extraction of text from resumes in Word format.
 python-docx==0.8.11
+# Natural Language Toolkit for text processing, useful for resume and job description parsing.
 nltk==3.8.1
